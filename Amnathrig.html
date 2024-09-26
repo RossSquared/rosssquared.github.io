@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,7 +10,7 @@
     <meta name="description" content="Ross Squared | Making the connections needed to change structural inefficiencies in society">
     <meta name="author" content="Dale V. Ross">
     <meta name="keywords" content="software, programming, startup, kansas city, automation, php, rosssquared,Ross Squared">
-    <meta property="og:image" content="http://www.rosssquared.org/img/rosssquared_1200x628.png">
+    <meta property="og:image" content="https://rosssquared.github.io/img/rosssquared_1200x628.png">
     <meta property="fb:admins" content="593170373,100004217675678">
     <meta property="og:title" content="Ross Squared, LLC">
     <meta property="og:description" content="Ross Squared | Making the connections needed to change structural inefficiencies in society">
@@ -25,6 +26,10 @@
     <link href="css/font-awesome-ie7.css" rel="stylesheet">
     <!-- Bootbusiness theme -->
     <link href="css/boot-business.css" rel="stylesheet">
+    <!-- Jquery UI -->
+    <link type="text/css" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/south-street/jquery-ui.min.css" rel="stylesheet">
+    <!-- OWL Styling -->
+    <link type="text/css" href="css/owlextension.css" rel="stylesheet">
 </head>
 
 <body>
@@ -47,8 +52,7 @@
                     <div class="nav-collapse collapse">
                         <ul class="nav pull-right">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    Products
+                                <a href="#" class="dropdown-toggle  active-link" data-toggle="dropdown">Products
                                     <b class="caret"></b>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -63,8 +67,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    About
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About
                                     <b class="caret"></b>
                                 </a>
                                 <ul class="dropdown-menu">
@@ -83,7 +86,7 @@
                             </li>
                             <!--<li><a href="faq.html">FAQ</a></li>-->
                             <li>
-                                <a href="contact_us.html" class="active-link">Contact us</a>
+                                <a href="contact_us.html">Contact us</a>
                             </li>
                             <li>
                                 <a href="https://dalevross.rosssquared.org/blog">The Code Room</a>
@@ -99,103 +102,18 @@
     <!-- Start: MAIN CONTENT -->
     <div class="content">
         <div class="container">
-            <div class="page-header">
-                <h1>Contact us</h1>
-            </div>
-            <div class="row-fluid">
-                <!-- Start: CONTACT US FORM -->
-                <div class="span4 offset1">
-                    <div class="page-header">
-                        <h2>Quick message</h2>
-                    </div>
-                    <form class="form-contact-us">
-                        <div class="control-group">
-                            <div class="controls">
-                                <input type="text" name="contact_name" id="inputName" placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="controls">
-                                <input type="email" name="contact_email" id="inputEmail" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="controls">
-                                <textarea name="contact_message" id="inputMessage" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="control-group">
-                            <div class="controls">
-                                <input type="hidden" name="save" value="contact">
-                                <input type="submit" class="btn btn-primary btn-large" value="Send">
-                            </div>
-                        </div>
-                        <div id="alert_placeholder"></div>
-                       
-                    </form>
+            <article class="article">
+                <div class="page-header">
+                    <h1>Amnathrig
+                        <small></small>
+                    </h1>
                 </div>
-                <!-- End: CONTACT US FORM -->
-                <!-- Start: OFFICES -->
-                <div class="span5 offset1">
-                    <div class="page-header">
-                        <h2>Offices</h2>
-                    </div>
-                    <h3>North America</h3>
-                    <div>
-                        <address class="pull-left">
-                            <strong>Ross Squared</strong>
-                            <br>Lansdowne
-                            <br>Pennsylvania
-                            <br>USA
-                            <br>
-                        </address>
-                        <div class="pull-right">
-                            <div class="bottom-space">
-                                <i class="icon-phone icon-large"></i>(352) 364-3453
-                            </div>
-                            <a href="mailto:info@rosssquared.org" class="contact-mail">
-                                <i class="icon-envelope icon-large"></i>
-                            </a>info@rosssquared.org
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <!--<h3>Europe</h3>
-                    <div>
-                      <address class="pull-left">
-                        <strong>Bootbusiness, Inc.</strong><br>
-                        123 Folsom Ave, Suite 600<br>
-                        UK<br>
-                      </address>
-                      <div class="pull-right">
-                        <div class="bottom-space">
-                          <i class="icon-phone icon-large"></i> (123) 123-1234
-                        </div>
-                        <a href="mailto:contact@bootbusiness.com" class="contact-mail">
-                          <i class="icon-envelope icon-large"></i>
-                        </a> contact@bootbusiness.com
-                      </div>
-                      <div class="clearfix"></div>
-                    </div>
-                    <h3>Asia</h3>
-                    <div>
-                      <address class="pull-left">
-                        <strong>Bootbusiness, Inc.</strong><br>
-                        123 Folsom Ave, Suite 600<br>
-                        India<br>
-                      </address>
-                      <div class="pull-right">
-                        <div class="bottom-space">
-                          <i class="icon-phone icon-large"></i> (123) 123-1234
-                        </div>
-                        <a href="mailto:contact@bootbusiness.com" class="contact-mail">
-                          <i class="icon-envelope icon-large"></i>
-                        </a> contact@bootbusiness.com
-                      </div>
-                      <div class="clearfix"></div>
-                    </div>-->
+                <div class="row">
+                    <p>
+                        Amnathrig will operate as a real-time, predominantly screen-based system with capabilities to store data securely, manage user-controlled access, and employ AR and QR code technologies for asset interaction. The application will generate reports on user asset data and manage security through robust encryption protocols. It addresses the problem of asset tracking in a secure and user-friendly manner and represents an innovation over existing asset management tools.
+                    </p>
                 </div>
-                <!-- End: OFFICES -->
-            </div>
+             </article>
         </div>
     </div>
     <!-- End: MAIN CONTENT -->
@@ -205,8 +123,7 @@
             <div class="row">
                 <div class="span2">
                     <h4>
-                        <i class="icon-star icon-white"></i>Products
-                    </h4>
+                        <i class="icon-star icon-white"></i>Products</h4>
                     <nav>
                         <ul class="quick-links">
                             <li>
@@ -221,23 +138,22 @@
                         </ul>
                     </nav>
                     <!--<h4><i class="icon-cogs icon-white"></i> Services</h4>
-                    <nav>
-                      <ul class="quick-links">
-                        <li><a href="service.html">Service1</a></li>
-                        <li><a href="service.html">Service2</a></li>
-                        <li><a href="service.html">Service3</a></li>
-                        <li><a href="all_services.html">All services</a></li>
-                      </ul>
-                    </nav>-->
+            <nav>
+              <ul class="quick-links">
+                <li><a href="service.html">Service1</a></li>
+                <li><a href="service.html">Service2</a></li>
+                <li><a href="service.html">Service3</a></li>
+                <li><a href="all_services.html">All services</a></li>              
+              </ul>
+            </nav>-->
                 </div>
                 <div class="span2">
                     <h4>
-                        <i class="icon-beaker icon-white"></i>About
-                    </h4>
+                        <i class="icon-beaker icon-white"></i>About</h4>
                     <nav>
                         <ul class="quick-links">
                             <!--<li><a href="our_works.html">Our works</a></li>
-                            <li><a href="patnerships.html">Patnerships</a></li>-->
+                <li><a href="patnerships.html">Patnerships</a></li>-->
                             <li>
                                 <a href="about_us.html">About Us</a>
                             </li>
@@ -245,17 +161,16 @@
                                 <a href="leadership.html">Leadership</a>
                             </li>
                             <!--<li><a href="news.html">News</a></li>
-                            <li><a href="events.html">Events</a></li>-->
+                <li><a href="events.html">Events</a></li>-->
                             <li>
                                 <a href="https://dalevross.rosssquared.org/blog">The Code Room</a>
                             </li>
-                            <ul>
+                            </ul>
                     </nav>
                 </div>
                 <div class="span2">
                     <h4>
-                        <i class="icon-thumbs-up icon-white"></i>Support
-                    </h4>
+                        <i class="icon-thumbs-up icon-white"></i>Support</h4>
                     <nav>
                         <ul class="quick-links">
                             <!--<li><a href="faq.html">FAQ</a></li>-->
@@ -265,14 +180,14 @@
                         </ul>
                     </nav>
                     <!--<h4><i class="icon-legal icon-white"></i> Legal</h4>
-                    <nav>
-                      <ul class="quick-links">
-                        <li><a href="#">License</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Security</a></li>
-                      </ul>
-                    </nav>-->
+            <nav>
+              <ul class="quick-links">
+                <li><a href="#">License</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Security</a></li>      
+              </ul>
+            </nav>-->
                 </div>
                 <div class="span3">
                     <h4>Get in touch</h4>
@@ -357,11 +272,13 @@
         </div>
     </footer>
     <!-- End: FOOTER -->
+    <script>
+    </script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/owlextension.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/boot-business.js"></script>
-    <script type="text/javascript" src="js/c.js"></script> 
-
 </body>
 
 </html>
